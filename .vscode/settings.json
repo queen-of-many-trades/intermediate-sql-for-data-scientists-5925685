@@ -19,5 +19,18 @@
   "terminal.integrated.fontSize": 18,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.fontAliasing": "antialiased",
-  "workbench.statusBar.visible": true
+  "workbench.statusBar.visible": true,
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "ll_datasci",
+      "database": "postgres",
+      "username": "postgres",
+      "password": "postgres"
+    }
+  ]
 }
